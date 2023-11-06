@@ -37,9 +37,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp ENTER>,
+                <&kp LCTRL &kp LEFT_ALT &kp ENTER>,
                 <&macro_release>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp ENTER>;
+                <&kp LCTRL &kp LEFT_ALT &kp ENTER>;
 
             label = "RECTANGLE_FULL_SCREEN";
         };
@@ -48,9 +48,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp ENTER>,
+                <&kp LEFT_ALT &kp LEFT_COMMAND &kp ENTER>,
                 <&macro_release>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp ENTER>;
+                <&kp LEFT_ALT &kp LEFT_COMMAND &kp ENTER>;
 
             label = "RECTANGLE_ALMOST_FULL_SCREEN";
         };
@@ -59,9 +59,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp LEFT>,
+                <&kp LCTRL &kp LEFT_ALT &kp LEFT>,
                 <&macro_release>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp LEFT>;
+                <&kp LCTRL &kp LEFT_ALT &kp LEFT>;
 
             label = "RECTANGLE_LEFT_HALF";
         };
@@ -70,9 +70,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp RIGHT>,
+                <&kp LCTRL &kp LEFT_ALT &kp RIGHT>,
                 <&macro_release>,
-                <&kp LCTRL &kp LEFT_COMMAND &kp RIGHT>;
+                <&kp LCTRL &kp LEFT_ALT &kp RIGHT>;
 
             label = "RECTANGLE_RIGHT_HALF";
         };
